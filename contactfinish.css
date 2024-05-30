@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #f4edea;
+
+    width: 100%;
+    height: 100%;
+}
+
+.header-container {
+    box-sizing: content-box;
+    width: 100%;
+    border: none;
+    background-color: #f4edea;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    height: 80px;
+
+}
+
+.home-header {
+    color: black;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: sticky;
+    top: 50%;
+    transform: translate(0%, -50%);
+    float: left;
+    left: 20px;
+    display: flex;
+    word-break: keep-all;
+    flex: 1;
+    z-index: 1;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.home-header:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #8b0000;
+    /* copied this color from wix, official color red!*/
+
+}
+
+.header-socialicons {
+    position: absolute;
+    right: 140px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+.instagramicon {
+    color: black;
+    text-decoration: none;
+}
+
+.spotifyicon {
+    color: black;
+    text-decoration: none;
+}
+
+.instagramicon:hover {
+    cursor: pointer;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.spotifyicon:hover {
+    cursor: pointer;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.instagramicon:visited {
+    font-weight: bolder;
+}
+
+.spotifyicon:visited {
+    font-weight: bolder;
+}
+
+.headercontact-btn {
+    float: right;
+    right: 20px;
+    padding: 0px;
+    height: 30px;
+
+    margin: auto;
+    top: 50%;
+    transform: translate(0%, -50%);
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid #8A241A;
+    background-color: #8A241A;
+
+
+
+}
+
+.headercontact-btn section {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+    display: inline-flex;
+    vertical-align: super;
+    margin: auto;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.headercontact-btn p {
+    margin: auto;
+}
+
+.headercontact-btn:hover {
+    background-color: #aa8e8c;
+    border: #8A241A;
+    color: white;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 3px solid #ECA69F;
+}
+
+button:visted {
+    border: 3px solid #504848;
+    background-color: #eca69f85;
+}
+
+
+
+
+/* SUBMITTED FORM PAGE */
+
+.submitted-container {
+    margin: auto;
+    background-color: #ffffffab;
+    height: auto;
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.submitted-words {
+    padding: 100px 75px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.submit-header h4 {
+    font-size: calc(2.0vw + 2.0vh);
+}
+
+.submit-paragraph p {
+    padding-top: 15px;
+    font-size: calc(0.9vw + 0.9vh);
+    text-align: center;
+}
+
+
+
+
+/*Footer from newestcss.css */
+
+
+
+.footer-container-contact {
+
+    width: 100%;
+    border: none;
+    background-color: #f4edea;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    height: 150px;
+    padding: 10px 90px;
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-header-contact {
+    color: black;
+    font-size: 25px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    word-break: keep-all;
+    flex: 1;
+    z-index: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: flex-start;
+    text-align: left;
+
+
+}
+
+.footer-header-contact a {
+    float: left;
+    padding-bottom: 15px;
+    color: black;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.footer-header-contact a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #8b0000;
+}
+
+#footer-paragraph-contact {
+    position: relative;
+    color: black;
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    word-break: keep-all;
+    flex: 1;
+    z-index: 1;
+    flex-direction: column;
+    font-size: calc(0.7vw + 0.7vh);
+    position: relative;
+
+    transform: translate(0%, -50%);
+    padding: 5px 10px;
+    padding-left: 0px;
+
+
+}
+
+
+.footer-socialicons-contact {
+    position: relative;
+    float: right;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 5%;
+
+    color: black;
+}
+
+.instagramicon {
+    color: black;
+}
+
+.spotifyicon {
+    color: black;
+}
+
+.instagramicon:hover {
+    cursor: pointer;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.spotifyicon:hover {
+    cursor: pointer;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.instagramicon:visited {
+    font-weight: bolder;
+}
+
+.spotifyicon:visited {
+    font-weight: bolder;
+}
+
+
+.footer-rights-contact {
+
+    position: relative;
+    text-align: center;
+    background-color: #f4edea;
+
+    font-size: 10px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* MEDIA SCREENS */
+
+/* FOOTER */
+
+@media only screen and (max-width: 520px) {
+    .footer-container-contact {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .footer-container-contact {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .footer-header-contact {
+        flex-wrap: nowrap;
+    }
+
+    .footer-socialicons-contact {
+        overflow: visible;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        top: 0%;
+    }
+
+    #footer-paragraph-contact {
+        font-size: calc(0.9vw + 0.9vh);
+        margin-bottom: 0px;
+    }
+
+    .footer-social-contact {
+        padding: 0px 5px;
+    }
+
+    .footer-rights-contact {
+        padding-top: 5px;
+        font-size: 7px;
+
+    }
+}
