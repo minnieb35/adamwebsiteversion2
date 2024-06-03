@@ -16,7 +16,7 @@ a:hover {
     box-sizing: content-box;
     width: 100%;
     border: none;
-    background-color: #f4edea;
+    background-color: #FFF6EF;
     z-index: 1;
     position: sticky;
     top: 0;
@@ -1076,7 +1076,7 @@ div #artist-header {
 
     width: 100%;
     border: none;
-    background-color: #f4edea;
+    background-color: #FFF6EF;
     z-index: 1;
     position: relative;
     top: 0;
