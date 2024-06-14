@@ -683,7 +683,7 @@ button:visited {
 }
 
 /* ADAM BIO CONTAINER */
-.adam-container {
+#adam-container {
     z-index: 0;
     padding: 35px 50px;
     margin: auto;
@@ -1211,28 +1211,42 @@ button:visted {
 }
 
 
+/* Create two equal columns that floats next to each other */
+.bio-content {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#bio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.staggered {
 
+}
 
+.staggered img:nth-child(odd) {
+    margin-right: 10%;
+}
 
+.staggered img:nth-child(even) {
+    margin-left: 10%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                    /* MEDIA SCREEN SIZING */
+/* MEDIA SCREEN SIZING */
 
 /* COVER/TOP CONTAINER */
 
@@ -1293,6 +1307,7 @@ button:visted {
     /*.cover-btn {
         padding: 2.5px 10px;
     }*/
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -1341,6 +1356,7 @@ button:visted {
 /*  AUDIO CONTAINER  */
 
 @media(max-width: 400px) {
+
     .audio-title,
     .audio-description {
         font-size: 11px;
@@ -1431,8 +1447,14 @@ button:visted {
         padding-bottom: 0;
     }
 
+
+    .bio-content {
+        width: 100%;
+        padding: 10px;
+    }
+
     .bio2 {
-        left: 0%;
+        left: 5%;
     }
 
     .bio1,
@@ -1466,9 +1488,9 @@ only screen and (max-height: 750px) {
 }
 
 @media only screen and (min-width: 1920px) {
-    .bio2 {
+    /* .bio2 {
         float: left;
-    }
+    } */
 
     .adambio-wordscontainer {
         transform: translate(0, 35%);
