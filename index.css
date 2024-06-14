@@ -1216,6 +1216,8 @@ button:visted {
     float: left;
     width: 50%;
     padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Clear floats after the columns */
